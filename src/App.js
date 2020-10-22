@@ -19,6 +19,8 @@ import Home from "./routes/Home";
 
 // chris was here
 
+// Joseph was here
+
 function App() {
   return (
     <div>
