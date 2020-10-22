@@ -12,14 +12,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Login from "./routes/Login";
 import About from "./routes/About";
 import Home from "./routes/Home";
-
-//nelson was here
-
-//anthony was here
-
-// chris was here
-
-// Joseph was here
+import NavBar from "./components/Navbar"
 
 function App() {
   return (
@@ -50,9 +43,13 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
+      <NavBar />
+
+
       <div>
         <Router>
           <Switch>
+            
             <Route path="/about">
               <About />
             </Route>
@@ -61,6 +58,9 @@ function App() {
             </Route>
             <Route path="/">
               <Home />
+            </Route>
+            <Route path="/navbar">
+              <Navbar />
             </Route>
           </Switch>
         </Router>
