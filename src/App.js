@@ -12,12 +12,12 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Login from "./routes/Login";
 import About from "./routes/About";
 import Home from "./routes/Home";
-import NavBar from "./components/Navbar"
+import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      {/* <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -41,11 +41,11 @@ function App() {
             <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> */}
 
       <NavBar />
 
-
+      
       <div>
         <Router>
           <Switch>
