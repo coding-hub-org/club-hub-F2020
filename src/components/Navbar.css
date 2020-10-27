@@ -5,12 +5,10 @@
     margin-bottom: 25px;
 }
 
-.submitButton {
-    background-color: white;
-    border: none;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 25px;
+.logo {
+    font-family: Helvetica;
+    font-size: 22px;
+    margin-top: 12.5px;
 }
 
 .profilePic {
@@ -20,16 +18,17 @@
 
 .profileName {
     float: right;
+    font-family: Helvetica;
     font-size: 20px;
     font-weight: bold;
     margin-left: 20px; 
-    margin-top: 10px;
+    margin-top: 7.5px;
 }
 
 .searchBar {
     background-color: #F5F5F5F5;
     border: none;
-    width: 750px;
+    width: 771px;
     height: 50px;
     border-radius: 10px;
     margin-right: 0;
@@ -45,56 +44,22 @@
 .searchInput {
     background-color: #F5F5F5F5;
     border: none;
-    width: 680px;
+    width: 701px;
     height: 50px;
     padding-left: 20px;
     border-radius: 10px;
 }
 
+
+.searchButton {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding-top: 12.5px;
+    padding-left: 24px;
+}
+
 *:focus {
     outline: 0 !important;
 }
-
-.dropbutton {
-    background-color: white;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbutton:hover, .dropbutton:focus {
-    
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
