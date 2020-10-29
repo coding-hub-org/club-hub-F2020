@@ -7,12 +7,13 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Login from "./routes/Login";
 import About from "./routes/About";
 import Home from "./routes/Home";
-import Cards from "./components/Cards";
+import Cards from "./components/Card/Cards.jsx";
+
 //nelson was here
 
 //anthony was here
