@@ -1,0 +1,20 @@
+.Categories {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-right:
+}
+
+.Categories p {
+    width: 15%;
+    margin: auto;
+    margin-right: 5%;
+    padding: 35px 20px 15px 20px;
+    text-align: left;
+    height: 10%; 
+    float: left;
+    color: white;
+    border-radius: 10px;
+    font-weight: 3000;
+    font-size: 20px;
+}
