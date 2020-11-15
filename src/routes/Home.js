@@ -3,6 +3,8 @@ import { Button, Form, FormControl } from "react-bootstrap";
 
 function Home() {
   return <div> 
+
+
     <Form>
       <Form.Group contolId= "formBasicEmail">
         <Form.Label>Email Address</Form.Label>
@@ -20,6 +22,7 @@ function Home() {
         Submit
       </Button>
   </Form>
+
   </div>;
 
 

@@ -1,0 +1,65 @@
+.navbar{
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    font-family: Helvetica;
+    font-size: 22px;
+    margin-top: 12.5px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    float: left;
+}
+
+.profileName {
+    float: right;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px; 
+    margin-top: 7.5px;
+}
+
+.searchBar {
+    background-color: #F5F5F5F5;
+    border: none;
+    width: 771px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 0;
+    margin: 0;
+    float: left;
+}
+
+.searchIcon {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.searchInput {
+    background-color: #F5F5F5F5;
+    border: none;
+    width: 701px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+
+.searchButton {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding-top: 12.5px;
+    padding-left: 24px;
+}
+
+*:focus {
+    outline: 0 !important;
+}
