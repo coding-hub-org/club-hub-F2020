@@ -15,12 +15,9 @@ function NavBar() {
     
     <p className="logo">LOGO</p>
 
-    <div className="middle">
-      <div className="searchBar">
-        <img class="searchIcon" src={searchIcon} alt="SrIc" width="20"></img> 
-        <input class="searchInput" type="text" placeholder="Search: e.g. Coding Hub" width="500"></input>
-      </div>
-      <button className="searchButton" className="searchButton" type="submit">SEARCH</button>
+    <div className="searchBar">
+      <img class="searchIcon" src={searchIcon} alt="SrIc" width="20"></img> 
+      <input class="searchInput" type="text" placeholder="Search: e.g. Coding Hub" width="500"></input>
     </div>
 
     <div class="profilePicture">

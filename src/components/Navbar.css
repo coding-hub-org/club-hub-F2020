@@ -1,5 +1,4 @@
 .navbar{
-    width: 95%;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -9,6 +8,8 @@
     font-family: Helvetica;
     font-size: 22px;
     margin-top: 12.5px;
+    margin-left: 3%;
+    float: left;
 }
 
 .profilePic {
@@ -44,7 +45,7 @@
 .searchInput {
     background-color: #F5F5F5F5;
     border: none;
-    width: 701px;
+    width: 80%;
     height: 50px;
     padding-left: 20px;
     border-radius: 10px;
@@ -58,8 +59,51 @@
     font-family: Helvetica;
     padding-top: 12.5px;
     padding-left: 24px;
+    float: right;
 }
 
 *:focus {
     outline: 0 !important;
+}
+
+@media only screen and (min-width: 1235px) {
+    .navbar {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    
+    .searchBar {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    .searchButton {
+        width: 70%;
+        background-color: #CAD1D5;
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media only screen and (max-width: 1272px) {
+
+    
+
+    .profileName {
+        display: none !important;
+    }
+
+    .profilePic {
+        display: none !important; 
+    }
+
+    .logo {
+        display: none !important;
+    }
+
 }
