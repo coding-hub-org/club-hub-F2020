@@ -1,0 +1,14 @@
+.login {   
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.Button1 {
+    background-color: #f4486d !important;
+    border: none;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto !important;
+    display: block !important;
+}

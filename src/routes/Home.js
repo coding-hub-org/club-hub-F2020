@@ -8,6 +8,7 @@ function Home() {
   return (
     <div>
       <div className="Categories">
+        <h1 className="categoriesTitle">Categories</h1>
         {categories.map((c_name, index) => (
           <Categories color={colors[index]} name={c_name} />
         ))}
@@ -15,4 +16,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;
