@@ -9,6 +9,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Welcome from "./routes/Welcome";
 import Login from "./routes/Login";
 import About from "./routes/About";
 import Home from "./routes/Home";
@@ -23,16 +24,21 @@ function App() {
       <div>
         <Router>
           <Switch>
-            
-            <Route path="/about">
-              <About />
+
+            <Route path="/welcome">
+              <Welcome />
             </Route>
             <Route path="/login">
               <Login />
             </Route>
+            <Route path="/about">
+              <About />
+            </Route>
             <Route path="/">
               <Home />
             </Route>
+           
+
           </Switch>
         </Router>
       </div>

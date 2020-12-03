@@ -1,0 +1,28 @@
+h1, p {
+    text-align: center;
+}
+
+.Image {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+
+}
+
+.Button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    background-color: #f4486d;
+    color: white;
+    border: none;
+    padding: 1% 5% 1% 5%;
+    width: 500px;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}

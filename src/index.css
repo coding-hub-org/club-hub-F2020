@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.categoriesTitle {
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 3%;
+}
